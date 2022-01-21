@@ -9,3 +9,20 @@ git status 检测当前目录下文件的状态
 	2.绿色: git 已经管理起来  -> git  commit -m "描述信息"
 
 	3.生成版本
+
+git 回滚  <-
+
+	1. git log 查看要回滚的版本  commit :  ecdb1d98a5112a2090f4436b8dcb5d67141bd521  (要回滚的id)
+
+	2. git reset --hard (commit id)
+
+git 回溯 ->
+
+	1. git reflog 查看要 回溯的版本 前面又要回溯 的 id
+		
+	2. git reset --hard (id)
+
+
+git checkout 对修改文件的有效   把修改的文件  回滚到  未修改的状态
+
+git reset HEAD 文件名  将 暂存区的文件 回滚大工作区 
