@@ -38,7 +38,7 @@ git branch -d 分支名 删除分支
 git chechout 分支名   切换分支
 
 git merge 要合并的分支名  合并的分支  
-
+ 
 git rebase 
 
 ------------工作流
