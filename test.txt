@@ -26,3 +26,15 @@ git 回溯 ->
 git checkout 对修改文件的有效   把修改的文件  回滚到  未修改的状态
 
 git reset HEAD 文件名  将 暂存区的文件 回滚大工作区 
+
+------------分支
+
+git branch   查看当前所有分支
+
+git branch 分支名 新建分支 
+
+git branch -d 分支名 删除分支
+
+git chechout 分支名   切换分支
+
+git merge 要合并的分支名  合并的分支  
