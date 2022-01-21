@@ -47,6 +47,18 @@ git rebase
 ---> master [ c1 ] 		<----   [ c4 ]
 	  \			       /
  --->(开发) dev [ c2 ] <---- [ c3 ]
-	 
+
+------------远程仓库
+
+git remote add origin(名字) 远程仓库地址    给远程仓库起别名
+
+git push -u origin  分支  向远程推送代码
+
+git clone 远程仓库的地址 
+
+
+
+
+
 
 
